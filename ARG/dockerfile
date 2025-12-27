@@ -3,5 +3,5 @@ FROM almalinux:${VERSION:-9}
 ARG COURSE="DOCKER" \
     TRAINER="PRASHANTH" 
 ENV COURSE=${COURSE}    
-RUN echo "Trainer:${TRAINER},course:${course},version:${VERSION}"
+RUN echo "Trainer: ${TRAINER},course: ${COURSE},version:${VERSION}"
 CMD ["sleep","1000"]    
